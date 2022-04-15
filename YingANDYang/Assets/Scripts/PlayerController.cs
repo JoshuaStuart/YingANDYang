@@ -8,13 +8,14 @@ public class PlayerController : MonoBehaviour
     public float jumpForce;
     private float moveInput;
 
-    private bool isGrounded;
+    public bool isGrounded;
     public Transform groundCheck;
     public float checkRadius;
     public LayerMask whatIsGround;
     private bool canJump;
 
     private Rigidbody2D rb;
+
 
     // Start is called before the first frame update
     void Awake()
@@ -34,18 +35,29 @@ public class PlayerController : MonoBehaviour
             canJump = false;
         }
 
-        if ((Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown("w")) && canJump == true)
+        if ((Input.GetKeyDown("w") || Input.GetKeyDown(KeyCode.Space)) && isGrounded == true)
         {
             rb.velocity = Vector2.up * jumpForce;
         }
     }
 
-    private void FixedUpdate()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
+        if (collision.gameObject.tag == "Ground")
+        {
+            isGrounded = true;
+        }
+        else
+        {
+            isGrounded = false;
+        }
+    }
 
-        moveInput = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
-
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Ground")
+        {
+            isGrounded = false;
+        }
     }
 }
