@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3.5
-  jumpForce: 9
+  jumpForce: 7
   isGrounded: 0
   groundCheck: {fileID: 6699066579305721603}
   checkRadius: 3
