@@ -46,4 +46,33 @@ public class MainMenu : MonoBehaviour
         Time.timeScale = 1;
         SceneManager.LoadScene(4);
     }
+    public void LoadLevel4()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(5);
+    }
+
+    public void LoadLevel5()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(6);
+    }
+
+    public void LoadLevel6()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(7);
+    }
+
+    public void LoadLevel7()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(8);
+    }
+    public void LoadLevel8() //first impossible level
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(9);
+    }
+
 }
