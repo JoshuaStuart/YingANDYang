@@ -39,7 +39,7 @@ public class Switch : MonoBehaviour
 
         if (count > 0)
         {
-            if (Input.GetKeyDown(KeyCode.Space) && count > 0)
+            if ((Input.GetKeyDown(KeyCode.Tab) || Input.GetMouseButtonDown(1)) && count > 0)
             {
 
 
