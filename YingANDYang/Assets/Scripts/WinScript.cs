@@ -9,7 +9,12 @@ public class WinScript : MonoBehaviour
 
     public string currentLevel = "Level1";
     public int currentLevelIndex = 1;
-    public int currentTicketValue = 0;
+    public int currentTicketValue;
+
+    private void Awake()
+    {
+        currentTicketValue = PlayerPrefs.GetInt("ticketValue");
+    }
 
 
     private void OnTriggerEnter2D(Collider2D collision)
