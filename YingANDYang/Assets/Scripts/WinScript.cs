@@ -9,6 +9,7 @@ public class WinScript : MonoBehaviour
 
     public string currentLevel = "Level1";
     public int currentLevelIndex = 1;
+    public int currentTicketValue = 0;
 
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -25,5 +26,6 @@ public class WinScript : MonoBehaviour
     public void WinLevel()
     {
         PlayerPrefs.SetInt("levelReached", currentLevelIndex + 1);
+        PlayerPrefs.SetInt("ticketValue", currentTicketValue + 20);
     }
 }
