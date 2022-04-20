@@ -1302,7 +1302,7 @@ GameObject:
   - component: {fileID: 483527597}
   m_Layer: 0
   m_Name: Black Floor (1)
-  m_TagString: Ground
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1590,7 +1590,7 @@ GameObject:
   - component: {fileID: 544946370}
   m_Layer: 0
   m_Name: Black Floor (3)
-  m_TagString: Ground
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2343,7 +2343,7 @@ GameObject:
   - component: {fileID: 968379192}
   m_Layer: 0
   m_Name: Black Floor (2)
-  m_TagString: Ground
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2591,6 +2591,10 @@ MonoBehaviour:
   countText2: {fileID: 1188958287}
   gameOverCanvas: {fileID: 412138229}
   gameCanvas: {fileID: 1943126955}
+  whiteSwitch: {fileID: 307809115}
+  whiteSwitchNumber: {fileID: 1711825724}
+  blackSwitch: {fileID: 1315055015}
+  blackSwitchNumber: {fileID: 1188958285}
 --- !u!4 &1003492096
 Transform:
   m_ObjectHideFlags: 0
@@ -3504,7 +3508,7 @@ GameObject:
   - component: {fileID: 1626814795}
   m_Layer: 0
   m_Name: Black Floor (4)
-  m_TagString: Ground
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
