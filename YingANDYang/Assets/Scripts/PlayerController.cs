@@ -55,7 +55,14 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            isGrounded = false;
+            if (collision.gameObject.tag == "Wall")
+            {
+
+            }
+            else
+            {
+                isGrounded = false;
+            }
         }
     }
 
@@ -67,7 +74,14 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            isGrounded = false;
+            if (collision.gameObject.tag == "Wall")
+            {
+
+            }
+            else
+            {
+                isGrounded = false;
+            }
         }
     }
 }
