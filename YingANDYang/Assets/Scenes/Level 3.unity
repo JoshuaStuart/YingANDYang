@@ -208,7 +208,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 997539536}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: ReturnToMenu
+        m_MethodName: LoadLevel4
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1798,7 +1798,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1965222894160435655, guid: 378f65dbd9ce92640b6753531ecd5b4d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.09
+      value: 5.17
       objectReference: {fileID: 0}
     - target: {fileID: 1965222894160435655, guid: 378f65dbd9ce92640b6753531ecd5b4d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2370,7 +2370,7 @@ MonoBehaviour:
   switchUI: {fileID: 0}
   blackBG: {fileID: 1325293881}
   whiteBG: {fileID: 654232163}
-  count: 1
+  count: 4
   currentCount: 0
   countText1: {fileID: 1711825726}
   countText2: {fileID: 1188958287}
@@ -3130,6 +3130,7 @@ MonoBehaviour:
   gameCanvas: {fileID: 1943126959}
   currentLevel: Level3
   currentLevelIndex: 3
+  currentTicketValue: 0
 --- !u!61 &1561034370
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4145,7 +4146,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1965222894160435655, guid: 378f65dbd9ce92640b6753531ecd5b4d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.89
+      value: -5.65
       objectReference: {fileID: 0}
     - target: {fileID: 1965222894160435655, guid: 378f65dbd9ce92640b6753531ecd5b4d, type: 3}
       propertyPath: m_LocalPosition.y

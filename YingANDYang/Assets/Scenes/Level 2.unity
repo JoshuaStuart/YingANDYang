@@ -2585,7 +2585,7 @@ MonoBehaviour:
   switchUI: {fileID: 0}
   blackBG: {fileID: 1325293881}
   whiteBG: {fileID: 654232163}
-  count: 2
+  count: 4
   currentCount: 0
   countText1: {fileID: 1711825726}
   countText2: {fileID: 1188958287}
@@ -3315,6 +3315,7 @@ MonoBehaviour:
   gameCanvas: {fileID: 1943126959}
   currentLevel: Level2
   currentLevelIndex: 2
+  currentTicketValue: 0
 --- !u!61 &1561034370
 BoxCollider2D:
   m_ObjectHideFlags: 0
