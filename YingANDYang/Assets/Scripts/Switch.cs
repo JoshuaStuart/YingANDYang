@@ -20,11 +20,18 @@ public class Switch : MonoBehaviour
     public GameObject gameOverCanvas;
     public GameObject gameCanvas;
 
+    public GameObject whiteSwitch;
+    public GameObject whiteSwitchNumber;
+    public GameObject blackSwitch;
+    public GameObject blackSwitchNumber;
+
 
     private void Start()
     {
         gameCanvas.gameObject.SetActive(true);
         blackBGactive = false;
+        blackSwitch.SetActive(false);
+        blackSwitchNumber.SetActive(false);
         currentCount = count;
         countText1.text = currentCount.ToString();
         countText2.text = currentCount.ToString();
@@ -51,6 +58,11 @@ public class Switch : MonoBehaviour
                     count = count - 1;
 
                     blackBGactive = false;
+
+                    blackSwitch.SetActive(false);
+                    blackSwitchNumber.SetActive(false);
+                    whiteSwitch.SetActive(true);
+                    whiteSwitchNumber.SetActive(true);
                 }
                 else
                 {
@@ -60,6 +72,11 @@ public class Switch : MonoBehaviour
                     count = count - 1;
 
                     blackBGactive = true;
+
+                    whiteSwitch.SetActive(false);
+                    whiteSwitchNumber.SetActive(false);
+                    blackSwitch.SetActive(true);
+                    blackSwitchNumber.SetActive(true);
                 }
                 currentCount = count;
                 countText1.text = currentCount.ToString();
