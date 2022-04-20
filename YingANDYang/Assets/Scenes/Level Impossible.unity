@@ -1444,7 +1444,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NEXT LEVEL
+  m_Text: COMPLETED WORLD
 --- !u!222 &481181865
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2741,7 +2741,7 @@ MonoBehaviour:
   switchUI: {fileID: 0}
   blackBG: {fileID: 1325293881}
   whiteBG: {fileID: 654232163}
-  count: 2
+  count: 1
   currentCount: 0
   countText1: {fileID: 1711825726}
   countText2: {fileID: 1188958287}

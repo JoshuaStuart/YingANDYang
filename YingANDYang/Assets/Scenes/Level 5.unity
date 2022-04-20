@@ -208,7 +208,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 997539536}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: ReturnToMenu
+        m_MethodName: LoadLevel6
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2405,7 +2405,7 @@ MonoBehaviour:
   switchUI: {fileID: 0}
   blackBG: {fileID: 1325293881}
   whiteBG: {fileID: 654232163}
-  count: 1
+  count: 3
   currentCount: 0
   countText1: {fileID: 1711825726}
   countText2: {fileID: 1188958287}

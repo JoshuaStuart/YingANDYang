@@ -2820,6 +2820,10 @@ PrefabInstance:
       value: Switcher
       objectReference: {fileID: 0}
     - target: {fileID: 966562047222722299, guid: ac3f2b3b1b05d754398f30070f3a34b6, type: 3}
+      propertyPath: count
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 966562047222722299, guid: ac3f2b3b1b05d754398f30070f3a34b6, type: 3}
       propertyPath: blackBG
       value: 
       objectReference: {fileID: 1325293881}
@@ -2914,7 +2918,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1965222894160435655, guid: 378f65dbd9ce92640b6753531ecd5b4d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.23
+      value: -0.13
       objectReference: {fileID: 0}
     - target: {fileID: 1965222894160435655, guid: 378f65dbd9ce92640b6753531ecd5b4d, type: 3}
       propertyPath: m_LocalPosition.y
