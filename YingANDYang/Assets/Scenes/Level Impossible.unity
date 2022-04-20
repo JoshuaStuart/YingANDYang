@@ -3966,6 +3966,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Flag
       objectReference: {fileID: 0}
+    - target: {fileID: 3812321287344416379, guid: 075f3c24a08a9254f8f271ff8936e395, type: 3}
+      propertyPath: m_TagString
+      value: Impossible
+      objectReference: {fileID: 0}
     - target: {fileID: 3812321287344416383, guid: 075f3c24a08a9254f8f271ff8936e395, type: 3}
       propertyPath: m_RootOrder
       value: 19
