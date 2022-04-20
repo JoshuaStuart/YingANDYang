@@ -26,21 +26,26 @@ public class MainMenu : MonoBehaviour
     public void PlayGame()
     {
         Time.timeScale = 1;
+        SceneManager.LoadScene(10);
+    }
+
+    public void LoadWorld1()
+    {
+        Time.timeScale = 1;
         SceneManager.LoadScene(1);
     }
 
+    //world 1
     public void LoadLevel1()
     {
         Time.timeScale = 1;
         SceneManager.LoadScene(2);
     }
-
     public void LoadLevel2()
     {
         Time.timeScale = 1;
         SceneManager.LoadScene(3);
     }
-
     public void LoadLevel3()
     {
         Time.timeScale = 1;
@@ -51,19 +56,16 @@ public class MainMenu : MonoBehaviour
         Time.timeScale = 1;
         SceneManager.LoadScene(5);
     }
-
     public void LoadLevel5()
     {
         Time.timeScale = 1;
         SceneManager.LoadScene(6);
     }
-
     public void LoadLevel6()
     {
         Time.timeScale = 1;
         SceneManager.LoadScene(7);
     }
-
     public void LoadLevel7()
     {
         Time.timeScale = 1;
@@ -75,4 +77,5 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(9);
     }
 
+    //world 2
 }

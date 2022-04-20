@@ -30,7 +30,15 @@ public class WinScript : MonoBehaviour
     }
     public void WinLevel()
     {
-        PlayerPrefs.SetInt("levelReached", currentLevelIndex + 1);
+        if (this.gameObject.tag == "Impossible")
+        {
+
+        }
+        else
+        {
+            PlayerPrefs.SetInt("levelReached", currentLevelIndex + 1);
+        }
         PlayerPrefs.SetInt("ticketValue", currentTicketValue + 20);
+
     }
 }
