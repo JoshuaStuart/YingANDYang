@@ -1248,6 +1248,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: WhiteSpike (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8853342864126349942, guid: 65089ab3cae343349a2573aef27a24fa, type: 3}
+      propertyPath: gameCanvas
+      value: 
+      objectReference: {fileID: 1443309842}
+    - target: {fileID: 8853342864126349942, guid: 65089ab3cae343349a2573aef27a24fa, type: 3}
+      propertyPath: gameOverCanvas
+      value: 
+      objectReference: {fileID: 5439194193326188206}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65089ab3cae343349a2573aef27a24fa, type: 3}
 --- !u!1 &450297452
@@ -2102,6 +2110,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: WhiteSpike (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8853342864126349942, guid: 65089ab3cae343349a2573aef27a24fa, type: 3}
+      propertyPath: gameCanvas
+      value: 
+      objectReference: {fileID: 1601595943}
+    - target: {fileID: 8853342864126349942, guid: 65089ab3cae343349a2573aef27a24fa, type: 3}
+      propertyPath: gameOverCanvas
+      value: 
+      objectReference: {fileID: 1939585833}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65089ab3cae343349a2573aef27a24fa, type: 3}
 --- !u!4 &717433566 stripped
@@ -4306,6 +4322,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: WhiteSpike (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8853342864126349942, guid: 65089ab3cae343349a2573aef27a24fa, type: 3}
+      propertyPath: gameCanvas
+      value: 
+      objectReference: {fileID: 1601595943}
+    - target: {fileID: 8853342864126349942, guid: 65089ab3cae343349a2573aef27a24fa, type: 3}
+      propertyPath: gameOverCanvas
+      value: 
+      objectReference: {fileID: 1939585833}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65089ab3cae343349a2573aef27a24fa, type: 3}
 --- !u!4 &1495298341 stripped
@@ -4713,6 +4737,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: WhiteSpike (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8853342864126349942, guid: 65089ab3cae343349a2573aef27a24fa, type: 3}
+      propertyPath: gameCanvas
+      value: 
+      objectReference: {fileID: 1443309842}
+    - target: {fileID: 8853342864126349942, guid: 65089ab3cae343349a2573aef27a24fa, type: 3}
+      propertyPath: gameOverCanvas
+      value: 
+      objectReference: {fileID: 5439194193326188206}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65089ab3cae343349a2573aef27a24fa, type: 3}
 --- !u!1 &1660412196
