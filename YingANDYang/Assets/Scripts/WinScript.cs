@@ -11,6 +11,8 @@ public class WinScript : MonoBehaviour
     public int currentLevelIndex = 1;
     public int currentTicketValue;
 
+    public AudioSource victoryEffect;
+
     private void Awake()
     {
         currentTicketValue = PlayerPrefs.GetInt("ticketValue");
@@ -21,6 +23,8 @@ public class WinScript : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            victoryEffect.Play();
+
             Time.timeScale = 0;
             winCanvas.gameObject.SetActive(true);
             gameCanvas.gameObject.SetActive(false);
