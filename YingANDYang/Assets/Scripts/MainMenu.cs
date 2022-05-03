@@ -78,4 +78,14 @@ public class MainMenu : MonoBehaviour
     }
 
     //world 2
+    public void LoadWorld2()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(11);
+    }
+    public void LoadWorld2Level1() 
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(12);
+    }
 }

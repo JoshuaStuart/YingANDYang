@@ -984,7 +984,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 673892481}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: PlayGame
+        m_MethodName: ReturnToMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1250,7 +1250,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1303497723}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: PlayGame
+        m_MethodName: ReturnToMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2220,7 +2220,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1959946629}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: PlayGame
+        m_MethodName: ReturnToMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
