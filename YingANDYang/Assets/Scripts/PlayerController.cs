@@ -50,11 +50,34 @@ public class PlayerController : MonoBehaviour
         Vector3 characterScale = transform.localScale;
         if (Input.GetAxis("Horizontal") < 0)
         {
-            characterScale.x = -1;
+            if (transform.localScale.x == 1 || transform.localScale.x == -1)
+            {
+                characterScale.x = -1;
+            }
+            if (transform.localScale.x == 2 || transform.localScale.x == -2)
+            {
+                characterScale.x = -2;
+            }
+            if (transform.localScale.x == 0.5 || transform.localScale.x == -0.5)
+            {
+                characterScale.x = (float)-0.5;
+            }
+
         }
         if (Input.GetAxis("Horizontal") > 0)
         {
-            characterScale.x = 1;
+            if (transform.localScale.x == 1 || transform.localScale.x == -1)
+            {
+                characterScale.x = 1;
+            }
+            if (transform.localScale.x == 2 || transform.localScale.x == -2)
+            {
+                characterScale.x = 2;
+            }
+            if (transform.localScale.x == 0.5 || transform.localScale.x == -0.5)
+            {
+                characterScale.x = (float)0.5;
+            }
         }
         transform.localScale = characterScale;
     }
